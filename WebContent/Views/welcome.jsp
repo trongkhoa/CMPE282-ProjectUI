@@ -94,10 +94,21 @@
 						id="maxPrice" placeholder="599.00">
 				</div>
 				<div class="form-group">
+					<label for="exampleInputEmail1">Condition</label> <select
+						class="form-control">
+						<option value="New">New</option>
+						<option value="Like New">Like New</option>
+						<option value="Excellent">Excellent</option>
+						<option value="Good">Good</option>
+						<option value="Used">Used</option>
+
+					</select>
+				</div>
+				<div class="form-group">
 					<label for="exampleInputEmail1">Time Range</label> <select
 						class="form-control">
 
-						<option value="Any (Default)">Any (Default)</option>
+						<option value="Any" selected>Any</option>
 						<option value="Within a week">Within a week</option>
 						<option value="Within a month">Within a month</option>
 						<option value="Within 6 months">Within 6 months</option>
@@ -118,7 +129,7 @@
 					<div class="form-group">
 						<label for="exampleInputEmail1">Your Price should be: </label> <input
 							type="number" class="form-control" style="border-radius: 0px"
-							id="predictedPrice" placeholder="299.99">
+							id="predictedPrice" placeholder="299.99" disabled>
 					</div>
 				</div>
 
